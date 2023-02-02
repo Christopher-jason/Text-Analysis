@@ -1,2 +1,2 @@
 # Text-Analysis
-Google collar code for different text analysis code
+Google collab code for different text analysis code
