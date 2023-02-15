@@ -63,7 +63,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer(min_df=1)
 content = ['How to format my hard disk', ' Hard disk format problems ']
 X = vectorizer.fit_transform(content)
-print(vectorizer.get_feature_names())
+print(vectorizer.get_feature_names()) # get_feature_names_out()
 print(X.toarray())
 print(X.toarray()[0])
 print(X.toarray()[1,2])
